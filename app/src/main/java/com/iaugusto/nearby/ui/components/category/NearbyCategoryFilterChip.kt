@@ -50,11 +50,11 @@ fun NearbyCategoryFilterChip(
             selectedBorderColor = Color.Transparent
         ),
         colors = FilterChipDefaults.filterChipColors(
-            containerColor = if (isSelected) Color.White else Gray400,
+            containerColor = Color.White,
             selectedContainerColor = GreenBase
         ),
         selected = isSelected,
-        onClick = { onClick(isSelected) },
+        onClick = { onClick(!isSelected) },
         label = {
             Text(
                 text = category.name,
@@ -85,7 +85,7 @@ private fun NearbyCategoryFilterChipNotSelectedPreview() {
     NearbyCategoryFilterChip(
         category = NearbyCategory(
             id = "1",
-            name = "Alimentação"
+            name = "Cinema"
         ),
         isSelected = false,
         onClick = {}
