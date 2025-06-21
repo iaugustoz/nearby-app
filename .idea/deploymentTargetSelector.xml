@@ -11,6 +11,9 @@
       <SelectionState runConfigName="MarketDetailsInfoPreview">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="MarketDetailsCouponsPreview">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
