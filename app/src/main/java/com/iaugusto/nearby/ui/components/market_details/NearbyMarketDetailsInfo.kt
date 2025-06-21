@@ -20,7 +20,7 @@ import com.iaugusto.nearby.ui.theme.Gray500
 import com.iaugusto.nearby.ui.theme.Typography
 
 @Composable
-fun MarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
+fun NearbyMarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
     Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text(text = "Informações", style = Typography.headlineSmall, color = Gray400)
 
@@ -73,8 +73,8 @@ fun MarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
 
 @Preview
 @Composable
-private fun MarketDetailsInfoPreview() {
-    MarketDetailsInfo(
+private fun NearbyMarketDetailsInfoPreview() {
+    NearbyMarketDetailsInfo(
         modifier = Modifier.fillMaxWidth(),
         market = mockMarkets.first()
     )

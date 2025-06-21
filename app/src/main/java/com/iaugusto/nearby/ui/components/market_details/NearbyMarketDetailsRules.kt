@@ -17,7 +17,7 @@ import com.iaugusto.nearby.ui.theme.Gray500
 import com.iaugusto.nearby.ui.theme.Typography
 
 @Composable
-fun MarketDetailsRules(modifier: Modifier = Modifier, rules: List<Rule>) {
+fun NearbyMarketDetailsRules(modifier: Modifier = Modifier, rules: List<Rule>) {
     Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text(text = "Regulamento", style = Typography.headlineSmall, color = Gray400)
         Text(
@@ -32,6 +32,6 @@ fun MarketDetailsRules(modifier: Modifier = Modifier, rules: List<Rule>) {
 
 @Preview
 @Composable
-private fun MarketDetailsRulesPreview() {
-    MarketDetailsRules(modifier = Modifier.fillMaxWidth(), rules = mockRules)
+private fun NearbyMarketDetailsRulesPreview() {
+    NearbyMarketDetailsRules(modifier = Modifier.fillMaxWidth(), rules = mockRules)
 }

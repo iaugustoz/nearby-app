@@ -25,7 +25,7 @@ import com.iaugusto.nearby.ui.theme.GreenExtraLight
 import com.iaugusto.nearby.ui.theme.Typography
 
 @Composable
-fun MarketDetailsCoupons(modifier: Modifier = Modifier, coupons: List<String>) {
+fun NearbyMarketDetailsCoupons(modifier: Modifier = Modifier, coupons: List<String>) {
     Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text(text = "Utilize esse cupom", style = Typography.headlineSmall, color = Gray400)
         coupons.forEach { coupon ->
@@ -53,8 +53,8 @@ fun MarketDetailsCoupons(modifier: Modifier = Modifier, coupons: List<String>) {
 
 @Preview
 @Composable
-private fun MarketDetailsCouponsPreview() {
-    MarketDetailsCoupons(
+private fun NearbyMarketDetailsCouponsPreview() {
+    NearbyMarketDetailsCoupons(
         modifier = Modifier.fillMaxWidth(),
         coupons = listOf("FM4345T5", "FM4345T6")
     )
