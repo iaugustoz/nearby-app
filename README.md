@@ -1,6 +1,6 @@
 # 📱 Nearby
 
-> Uma breve descrição impactante do seu aplicativo Kotlin. Ex: "Um app para controle nutricional com suporte a IA generativa."
+> ""
 
 ---
 
@@ -8,17 +8,11 @@
 
 ⚙️ Descrição em andamento...
 
-Exemplo:
-
-Este projeto é um aplicativo Kotlin desenvolvido para [finalidade do app]. Ele foi criado com foco em [usabilidade, performance, arquitetura moderna, etc.] e pode ser utilizado em [Android, Desktop, Web etc.].
-
 ---
 
 ## ✅ Funcionalidades
 
 -
-
----
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -28,7 +22,7 @@ Este projeto é um aplicativo Kotlin desenvolvido para [finalidade do app]. Ele 
 
 ## 🏛 Arquitetura
 
-- ***
+- 
 
 ## 💻 Instalação e Execução
 
@@ -47,8 +41,6 @@ Este projeto é um aplicativo Kotlin desenvolvido para [finalidade do app]. Ele 
 ## 🧪 Testes
 
 - 
-
----
 
 ## 🧰 Ambiente de Desenvolvimento
 
